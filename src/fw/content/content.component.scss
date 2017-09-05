@@ -1,6 +1,8 @@
+@import "frameworkStyle.scss";
+
 :host {
     display: flex;
-    background-color: #f0fff0; 
+    background-color: $backgroundColor; 
     flex-grow: 1;
 }
 

@@ -8,7 +8,7 @@ import { MenuItem, MenuService } from '../../services/menu.service';
 @Component({
   selector: 'fw-menu-item',
   templateUrl: './menu-item.component.html',
-  styleUrls: ['./menu-item.component.css'],
+  styleUrls: ['./menu-item.component.scss'],
   animations: [
         trigger('visibilityChanged', [
             transition(':enter', [   // :enter is alias to 'void => *'

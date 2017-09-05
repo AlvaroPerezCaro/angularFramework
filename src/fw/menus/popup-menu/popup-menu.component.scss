@@ -1,8 +1,10 @@
+@import 'frameworkStyle';
+
 :host {
     position: absolute;
     display: inline-block;
     width: 162px;
-    background-color: white;
+    background-color: $popupmenubackgroud;
     border: 1px solid black;
     box-shadow: 1px 1px 5px #aaa;
 }

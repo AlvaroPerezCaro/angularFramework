@@ -1,3 +1,5 @@
+@import 'frameworkStyle';
+
 :host {
     display: flex; 
     align-items: flex-end; 
@@ -11,7 +13,7 @@
     min-width: 200px;
     padding-left: 4px;
     flex-grow: 0;
-    background-color: #555;
+    background-color: $verticalmenuBackground;
     overflow: auto;
 }
 
@@ -27,8 +29,9 @@ li {
 
 button {
     margin-top: 20px;
-}
-button.horizontal {
-    margin-left: 20px;
-    margin-bottom: 2px;
+
+    &.horizontal {
+        margin-left: 20px;
+        margin-bottom: 2px;
+    }
 }

@@ -1,0 +1,6 @@
+@import 'frameworkStyle';
+
+:host {
+    background-color: $primaryColor; 
+    min-height: 26px;
+}

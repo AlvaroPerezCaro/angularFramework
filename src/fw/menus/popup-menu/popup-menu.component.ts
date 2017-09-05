@@ -5,7 +5,7 @@ import { MenuItem, MenuService } from '../../services/menu.service';
 @Component({
   selector: 'fw-popup-menu',
   templateUrl: './popup-menu.component.html',
-  styleUrls: ['./popup-menu.component.css']
+  styleUrls: ['./popup-menu.component.scss']
 })
 export class PopupMenuComponent implements OnInit {
 

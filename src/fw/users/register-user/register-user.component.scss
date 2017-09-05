@@ -1,17 +1,19 @@
+@import "frameworkStyle.scss";
+
 :host {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
     width: 100vw;
-    background-image: url('../../../assets/mountains.jpg');  
+    background-image: $usersBackgroundImage;  
     background-position:  center center;
     background-size: cover;
 }
 
 .register-form {
     min-width: 300px;
-    background-color: white;
+    background-color: $usersFormBackgroundColor;
     opacity: .93;
     padding: 20px;
 }

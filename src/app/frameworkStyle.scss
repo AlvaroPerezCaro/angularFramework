@@ -1,0 +1,22 @@
+// ************ GENERAL STYLE *************
+$primaryColor: green;
+
+// ************ USERS STYLE *************
+$usersBackgroundImage: url('~/assets/mountains.jpg');
+$usersFormBackgroundColor: white;
+
+// backgorund color on page content
+$backgroundColor: #f0fff0;
+
+// ************ TOP BAR STYLE *************
+// Font color
+$topbarcolor: #888;
+
+// ************ MENUS STYLE *************
+$menuFontColor: #666;
+$verticalmenuFontColor: white;
+$verticalmenuBackground: #555;
+$popupmenubackgroud: white;
+$menuItemSelectedBackground: #dfd;
+$verticalmenuItemSelectedBackground: $primaryColor;
+$verticalmenuItemSelectedFontColor: white;

@@ -1,3 +1,5 @@
+@import 'frameworkStyle';
+
 :host {
     display: inline-block;
     position: relative;
@@ -7,23 +9,25 @@
     padding: 0;
     font-size: 15px;
     line-height: 15px;
-    color: #666;
+    color: $menuFontColor;
     cursor: pointer;
     box-sizing: border-box;
     width: 100%;
+
+    &:not(.parent-is-popup) {
+        margin-left: 16px;
+        width: auto;
+    }
 }
 
-:host:not(.parent-is-popup) {
-    margin-left: 16px;
-    width: auto;
-}
+
 
 :host(.vertical-menu) {
     display: block;
     margin-left: 0;
     margin-top: 6px;
     margin-bottom: 6px;
-    color: white;
+    color: $verticalmenuFontColor;
 }
 
 :host(.vertical-menu.in-popup) {
@@ -48,24 +52,27 @@ span {
 
 .menu-item {
     padding: 10px 10px 10px 0;
-}
 
-.menu-item.vertical-menu {
-    padding: 6px 6px 6px 0;
-}
+    &:hover {
+        background-color: $menuItemSelectedBackground;
+    }
 
-.menu-item:hover {
-    background-color: #dfd;
-}
+    &.vertical-menu {
+        padding: 6px 6px 6px 0;
 
-.menu-item.vertical-menu:hover {
-    background-color: green;
+        &:hover {
+            background-color: $verticalmenuItemSelectedBackground;
+            color: $verticalmenuItemSelectedFontColor;
+        }
+    }
 }
 
 .router-link-active {
-    background-color: #dfd;
+    background-color: $menuItemSelectedBackground;
+
+    &.vertical-menu {
+        background-color: $verticalmenuItemSelectedBackground;
+    }
 }
 
-.router-link-active.vertical-menu {
-    background-color: green;
-}
+

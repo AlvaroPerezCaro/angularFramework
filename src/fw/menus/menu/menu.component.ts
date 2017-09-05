@@ -5,7 +5,7 @@ import { MenuService } from '../../services/menu.service';
 @Component({
   selector: 'fw-menu',
   templateUrl: './menu.component.html',
-  styleUrls: ['./menu.component.css']
+  styleUrls: ['./menu.component.scss']
 })
 export class MenuComponent implements OnInit {
 

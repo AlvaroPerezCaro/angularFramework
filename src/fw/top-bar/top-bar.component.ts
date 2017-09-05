@@ -6,7 +6,7 @@ import { UserApi } from '../users/user-api';
 @Component({
   selector: 'fw-top-bar',
   templateUrl: './top-bar.component.html',
-  styleUrls: ['./top-bar.component.css']
+  styleUrls: ['./top-bar.component.scss']
 })
 export class TopBarComponent implements OnInit {
 

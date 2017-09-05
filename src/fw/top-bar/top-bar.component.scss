@@ -1,8 +1,10 @@
+@import 'frameworkStyle';
+
 :host {
     height: 30px; 
     text-align: right; 
     padding-top: 4px;
-    color: #888;
+    color: $topbarcolor;
 }
 
 div {
